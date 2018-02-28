@@ -1,0 +1,103 @@
+.navbar-nav{
+    background-color:green;
+    color:white;
+    border-radius:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0.6% 0;
+    font-size:1.2em;
+}
+.navbar-inverse .navbar-nav .active a{
+    color:#fffffff;
+    background-color:green;
+}
+.navbar-inverse .navbar-nav .active a:focus{
+    color:#fffffff;
+    background-color:green;
+}
+.navbar-inverse .navbar-nav .active a:hover{
+    color:#fffffff;
+    background-color:green;
+}
+.carousel-caption{
+    text-transform:capitalize;
+    color:green;
+    position: absolute;
+    top:45%;
+    font-size:35px;
+}
+.col1{
+    border:2px solid green;
+    padding-bottom:5px;
+    text-align: center;
+}
+.icon{
+    width:120px;
+    height: 110px;
+    background-color:#d9d9d9;
+    color:#82c434;
+    font-size: 60px;
+    margin: auto;
+}
+.sevicetxt{
+    font-size:20px;
+    text-align:center;
+}
+.btn{
+    background:green ;
+    color:#ffffff;
+    text-align:center;
+}
+#about{
+    width:100%;
+    min-height:500px;
+    background-color:#282e3e;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top:30px;
+}
+#aboutus{
+    color: white;
+    font-size:30px;
+    border-bottom-style:ridge;
+    border-bottom-color:green;
+}
+#mainteam{
+    background: #d9d9d9;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+#ourteam{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.team{
+    height:280px;
+    text-align:center;
+    border:2px solid green;
+}
+#ffacebook{
+    width:30px;
+    height:30px;
+    color:white;
+    line-height:30px;
+    border-radius: 50px;
+    background:green;
+}
+.footer{
+    width:100%;
+    height:auto;
+    background:#282e3e;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: white;
+    text-align:justify-all;
+}
+@media(max-width:600px){
+.carousel-caption{
+    display:none;
+}
+    .sevicetxt{
+        font-size:16px;
+    }
+}
